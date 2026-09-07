@@ -1,0 +1,13 @@
+html , body { 
+    margin: 0
+    ;
+    padding: 0;
+    background-color: blue;
+}
+
+a { 
+    text-decoration: none;
+}
+p{ 
+    margin: 0;
+}
