@@ -134,7 +134,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 133px;
+    /* gap: 133px; */
     
 }
 
@@ -286,4 +286,117 @@
  /*  SERVICE FRAME TUGADI ... */
   /*  SERVICE FRAME TUGADI ... */
    /*  SERVICE FRAME TUGADI ... */
+
+
+
+
+   /*  SHOP CATEGORY FRAME BOSHLANDI  */
+
+   /*  SHOP CATEGORY FRAME BOSHLANDI  */
+
+   /*  SHOP CATEGORY FRAME BOSHLANDI  */
+
+.shop_category_frame {
+    position: relative;
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+   
+
+}
+.shop_category_frame .container {
+    flex-direction: column;
+}
+.shop_category_frame .container .category_top { 
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop_category_frame .category_top span {
+    color: rgba(4, 30, 66, 1);
+
+   font-family: "Jost";
+   font-style: normal;
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 40px;
+
+}
+.shop_category_frame .category_top a {
+    color: rgba(4, 30, 66, 1);
+
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.shop_category_frame .category_top a:hover {
+    border-bottom: 2px solid rgba(4, 30, 66, 1);
+}
+
+
+.shop_category_frame .container .category_wrapper {
+    margin-top: 30px;
+    width: 100;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.shop_category_frame .category_wrapper .category_box {
+    width: 142px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+
+}
+
+.shop_category_frame .category_box .category_img_box {
+    width: 142px;
+    height: 150px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 150px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.shop_category_frame .category_box span {
+    margin-top: 15px;
+
+    color: rgba(4, 30, 66, 1);
+
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* .shop_category_frame */
+
+/* .shop_category_frame */
+
+/* .shop_category_frame */
+
+
 
