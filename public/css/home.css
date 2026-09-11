@@ -1,10 +1,13 @@
 .home_page{
+
+    /* padding-bottom: 60px; */
+
     display: flex;
     flex-direction: column;
 }
 
 .header_frame { 
-    position: relative;
+    position:relative;
     margin-top: 47px ;
     width: 100%;
     height: auto;
@@ -18,27 +21,28 @@
 .header_frame .container { 
     flex-direction: row;
     
-    height: 200px;
+    height: 508px;
 
 }
-.container .header_left { 
+.header_frame .container .header_left { 
     position: relative;
+    border-radius: 5px;
     
-    width: 871.2px;
+    width: 875px;
     height: 508px;
 
     background-color: rgba(0, 83, 246, 1);
     background-image: url(../images/icons/header_bg.svg)
 }
 
-.header_left .header_content { 
+.header_frame .header_left .header_content { 
     padding: 15px;
     margin-top: 90px;
     display: flex;
     flex-direction: column;
 }
 
-.header_content div { 
+.header_frame .header_content div { 
     width: 104px;
     height: 30px;
     display: flex;
@@ -59,7 +63,7 @@
     text-align: left;
 }
 
-.header_content span {
+.header_frame .header_content span {
     /* Immersive Entertainment */
     margin-top: 10px;
     width: 428px;
@@ -76,7 +80,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.header_content p {
+.header_frame .header_content p {
     width: 262.11px;
     height: 56px;
 
@@ -90,7 +94,7 @@
     
 }
 
-.header_content a { 
+.header_frame .header_content a { 
     margin-top: 20px;
     width: 140px;
     height: 52px;
@@ -114,7 +118,7 @@
    
 }
 
-.header_content img {
+.header_frame .header_content img {
     position: absolute;
     right: 10px;
 }
@@ -123,31 +127,34 @@
   kdfmfkdmnkfmdkmfkdmfk
     /* */ 
 
-.container .header_right {
+.header_frame .container .header_right {
     /* margin-left: 20px; */
     
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 133px;
+    
 }
 
-.header_right .header_box {
+.header_frame .header_right .header_box {
     
    margin-left: 26px;
+   
    width: 422.4px;
    height: 240px;
 
    display: flex;
    flex-direction: row;
    
-   /* border-radius: 5px; */
+   border-radius: 5px;
 
    background: rgba(242, 242, 242, 1);
 
 }
 
-.header_right .box_left {
+.header_frame .header_right .box_left {
     margin-left: 30px;
     width: 50%;
 
@@ -157,7 +164,7 @@
 
 }
 
-.box_left span{
+.header_frame .box_left span{
 
     /* Starting from $899. */
    width: 207.57px;
@@ -173,7 +180,7 @@
   
 }
 
-.box_left p { 
+.header_frame .box_left p { 
     /* Health Care Monitor */
    width: 225.69px;
    height: 76px;
@@ -188,7 +195,7 @@
   
 }
 
-.box_left a {
+.header_frame .box_left a {
     color: rgba(4, 30, 66, 1);
 
     font-family: "Jost";
@@ -198,20 +205,85 @@
     line-height: 22px;
 }
 
-.box_left .hover_border {
+.header_frame .box_left .hover_border {
     margin-top: 3px;
     width: 32px;
     height: 2px;
     background: rgba(4, 30, 66, 1);
 }
 
-.header_box .box_right {
+.header_frame .header_box .box_right {
     width: 50%;
 }
 
-.box_right img {
+.header_frame .box_right img {
     width: 100%;
     height: 100%;
 }
+/*  SERVICE FRAME BOSHLANDI  */
+/*  SERVICE FRAME BOSHLANDI  */
+ /*  SERVICE FRAME BOSHLANDI  */
 
+ .home_page .service_frame {
+    /* position: absolute;  */
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+
+ }
+
+ .service_frame .container {
+    flex-direction: row;
+
+ }
+
+ .service_frame .container .service_box {
+    width: 25%;
+    height: 86px;
+    display: flex;
+    flex-direction: row;
+
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+ }
+
+ .service_frame .service_box img {
+    width: 35px;
+    height: 35px;
+ }
+ .service_frame .service_box .service_content  {
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .service_frame .service_content span {
+    color: rgba(4, 30, 66, 1);
+
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+
+ }
+
+ .service_frame .service_content p {
+    color: rgba(98, 105, 116, 1);
+
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+   
+ }
+
+ /*  SERVICE FRAME TUGADI ... */
+  /*  SERVICE FRAME TUGADI ... */
+   /*  SERVICE FRAME TUGADI ... */
 
