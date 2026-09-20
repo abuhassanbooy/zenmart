@@ -6,6 +6,10 @@
     flex-direction: column;
 }
 
+.white_svg {
+    filter: brightness(0) invert(1); 
+}
+
 .container .category_top { 
     width: 100%;
     height: auto;
@@ -548,6 +552,7 @@
 .selling_product_frame .next_prev_box  img {
     position: absolute;
     top: 50%;
+   
 }
 .selling_product_frame .next_prev_box  img:hover {
     cursor: pointer;
@@ -1187,4 +1192,418 @@ height: 10px;
 
        /* PAGINATION END */
        /* PAGINATION END */
+
+
+       /* Oxirgi frame boshlandi  */
+       /* Oxirgi frame boshlandi  */
+       /* Oxirgi frame boshlandi  */
+
+
+
+ .oxirgi_frame {
+        position: relative;
+        margin-top: 90px;
+        width: 100%;
+        height: 632px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        background-image: url(../images/icons/event_bg.png ) ;
+        background-size: cover;
+       }
+ .oxirgi_frame .container {
+        flex-direction: row;
+
+       }
+
+.oxirgi_frame .container .content_box {
+        position: relative;
+        margin-left: 60px;
+        margin-top: -150px;
+        width: 340px;
+        height: auto;
        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+       }
+
+.oxirgi_frame .content_box p {
+        /* Top Deals Of The Day */
+        width: 244.9px;
+        height: 38.27px;
+
+        color: rgba(255, 255, 255, 1);
+
+        font-family: "Jost";
+        font-style: Medium;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+
+.oxirgi_frame .content_box .raqamlar {
+    position: relative;
+    margin-top: 50px;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+ .oxirgi_frame .raqamlar .raqam1 {
+    /* 178 */
+
+display: flex;
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+
+
+}
+
+ .oxirgi_frame .raqamlar .raqam2 {
+    /* 23 */
+ margin-right: 20px;
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.oxirgi_frame .raqamlar .raqam3{
+margin-right: 40px;
+    
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+ .oxirgi_frame .raqamlar .raqam4{
+
+margin-right: 30px;
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.oxirgi_frame .content_box .yozuvlar {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+ .oxirgi_frame .yozuvlar .yozuv1 {
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+
+
+}
+ .oxirgi_frame .yozuvlar .yozuv2 {
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+ .oxirgi_frame .yozuvlar .yozuv3 {
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+ .oxirgi_frame .yozuvlar .yozuv4{
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+ .oxirgi_frame .content_box .tugma {
+    margin-top: 30px;
+    
+width: 141.79px;
+height: 52px;
+/* 오토 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 1);
+border-radius: 6px;
+background: rgba(255, 255, 255, 1);
+}
+ .oxirgi_frame .content_box .tugma a {
+    text-decoration: none;
+}
+ .oxirgi_frame .content_box .tugma span{
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+
+/* PRODUCT WRAPPER STARTED  */
+/* PRODUCT WRAPPER STARTED  */
+/* PRODUCT WRAPPER STARTED  */
+
+
+
+
+
+.oxirgi_frame .container .product_wrapper {
+    position: relative;
+   /* padding-left: 50px; */
+   
+
+    margin-top: 116px;
+    margin-left: 25px;
+    /* width: 848px; */
+    width: 960px;
+    height: 392px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+   
+}
+
+.oxirgi_frame .product_wrapper .next_prev_box {
+  width: 25px;
+  color: rgba(255, 255, 255, 1);
+
+}
+.oxirgi_frame .next_prev_box2 img {
+    position: relative;
+    top: 55%; 
+    filter: brightness(0) invert(1); 
+}
+
+/* .oxirgi_frame .next_prev_box2 .white_svg {
+    filter: brightness(0) invert(1); 
+} */
+
+.oxirgi_frame .next_prev_box  img {
+    position: absolute;
+    top: 40%;
+}
+
+
+.oxirgi_frame .product_wrapper .product_boxes {
+    position: relative;
+   
+    width: 860px;
+    height: auto;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.oxirgi_frame .product_boxes .product_box {
+    width: 190px;
+    height:392px;
+    
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 1);
+
+  
+}
+
+.oxirgi_frame .product_boxes .product_box  a{
+
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.oxirgi_frame .product_box .product_image_box {
+  
+
+width: 170.7px;
+height: 170.61px;
+
+}
+
+
+
+.oxirgi_frame .product_box .product_content_box {
+    /* padding: 5px 22px; */
+    margin-top: 15px;
+    width: 161px;
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+}
+
+.oxirgi_frame .product_content_box .product_title {
+    margin-top: 0;
+    margin-left: 14px;
+
+    color: rgba(98, 105, 116, 1);
+
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.oxirgi_frame .product_content_box .product_desc {
+
+    margin-left: 14px;
+
+   color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+
+
+}
+
+.oxirgi_frame .product_content_box .review_box {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.oxirgi_frame .review_box img {
+    margin-right: 5px;
+width: 7.12px;
+height: 9.17px;
+
+}
+.oxirgi_frame .review_box span {
+  
+    margin-left: 6px;
+
+    color: rgba(98, 105, 116, 1);
+
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+ }
+
+ .oxirgi_frame .product_content_box .price_box {
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  
+ }
+
+ .oxirgi_frame .price_box strong {
+    margin-left: 12px;
+    color: rgba(4, 30, 66, 1);
+
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+ 
+ }
+
+ .oxirgi_frame .price_box span {
+    margin-left: 5px;
+    color: rgba(98, 105, 116, 1);
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+
+ }
+
+/* OXIRGI_FRAME TUGADI */
+
+/* OXIRGI_FRAME TUGADI */
+
+/* OXIRGI_FRAME TUGADI */
+
+
+
+
+
+
+
+
+
+
+    
